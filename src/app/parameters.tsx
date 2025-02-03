@@ -5,9 +5,7 @@ const Parameters = () => {
   const [medida, setMedida] = React.useState(1.17);
   const [base, setBase] = React.useState(100000);
 
-  const calcularValor = () => {
-    return (medida * altura + base).toFixed(2);
-  };
+
   return (
     <div className="p-4 border rounded-xl shadow-lg max-w-sm mx-auto">
       <h2 className="text-xl font-bold mb-4">Configuracion Calculadora de Vidrio</h2>
